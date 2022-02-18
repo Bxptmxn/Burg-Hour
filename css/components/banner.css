@@ -1,0 +1,46 @@
+.banner{
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.10) 10%, rgba(0,0,0,0.40) 50%),url(../../image/Burger.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 30px;
+	margin: 0px
+}
+
+.welcome{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+	margin-top: 0px
+}
+
+.welcome h2{
+	font-family: 'Ubuntu Mono', monospace;
+	margin-bottom: 50px
+}
+
+.welcome h1{
+	font-size: 100px
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .welcome {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .welcome {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .welcome {
+    width: 300px;
+  }
+}
