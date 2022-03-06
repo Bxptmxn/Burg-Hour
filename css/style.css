@@ -1,0 +1,20 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/btn-green.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+p{
+	font-family: 'Ubuntu Mono', monospace;
+	font-weight: 18px;
+	text-align: justify;
+}
+
+h1,h2,h3{
+	font-family: 'Shizuru', cursive;
+	font-weight: bold;
+} 
+
+
+
